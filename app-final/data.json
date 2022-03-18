@@ -1,0 +1,320 @@
+{
+  "cards": [
+    {
+      "name": "Dark Magician",
+      "id": 1,
+      "image": "assets/img/dark-magician.jpg",
+      "edition": "Ultra-Rare SDY-006",
+      "description": "The ultimate wizard in terms of attack and defense.",
+      "high": true,
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 150,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 30,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 35,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Magician Girl",
+      "id": 2,
+      "image": "assets/img/darkgirl.jpg",
+      "edition": "Ultra Rare RDS-SE2",
+      "description": "Gains 300 ATK for every Dark Magician or Magician of Black Chaos in the GY.",
+      "high": true,
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 50,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 10,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 11,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Time Wizard",
+      "id": 3,
+      "image": "assets/img/time-wizard.jpg",
+      "edition": "Ultra Rare LCJW-021",
+      "description": "Once per turn: You can toss a coin and call it. If you call it right, destroy all monsters your opponent controls. If you call it wrong, destroy as many monsters you control as possible, and if you do, take damage equal to half the total ATK those destroyed monsters had while face-up on the field.",
+      "high": true,
+  
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 15,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 5,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 7,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyes White Dragon",
+      "id": 4,
+      "image": "assets/img/blue-eyes.jpg",
+      "edition": "Ultra Rare DPKB-01",
+      "description": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.",
+      "high": true,
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 150,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 300,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 305,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Red-Eyes B. Dragon",
+      "id": 5,
+      "image": "assets/img/red-eyes.jpg",
+      "edition": "Ultra Rare SDJ-01",
+      "description": "A ferocious dragon with a deadly attack.",
+      "high": true,
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 50,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 10,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 11,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Black Luster Soldier",
+      "id": 6,
+      "image": "assets/img/black-luster-soldier.jpg",
+      "edition": "Ultra Rare SYE-024",
+      "description": "xxxxxxx.",
+      "high": false,
+  
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 15,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 5,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 7,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Mirror Force",
+      "id": 7,
+      "image": "assets/img/mirror-force.jpg",
+      "edition": "Ultra Rare MRD-EN138",
+      "description": "When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters.",
+      "high": false,
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 150,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 30,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 35,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Hole",
+      "id": 8,
+      "image": "assets/img/dark-hole.jpg",
+      "edition": "LOB-EN052",
+      "description": " Destroy all monsters on the field.",
+      "high": false,
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 50,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 10,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 11,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Trap Hole",
+      "id": 9,
+      "image": "assets/img/trap-hole.jpg",
+      "edition": "SYE-041",
+      "description": "When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.",
+      "high": false,
+  
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 15,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 5,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 7,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "Swords of Revealing Light",
+      "id": 10,
+      "image": "assets/img/sword-light.jpg",
+      "edition": "SDMY-EN029",
+      "description": "After this card's activation, it remains on the field, but you must destroy it during the End Phase of your opponent's 3rd turn. When this card is activated: If your opponent controls a face-down monster, flip all monsters they control face-up. While this card is face-up on the field, your opponent's monsters cannot declare an attack.",
+      "high": false,
+  
+      "sites": [
+        {
+          "link": "https://ligayugioh.com.br/",
+          "name": "Liga Yugioh",
+          "price": 15,
+          "id": 1,
+          "currency": "BRL"
+        },
+        {
+          "link": "https://www.tcgplayer.com/",
+          "name": "TCG Player",
+          "price": 5,
+          "id": 2,
+          "currency": "USD"
+        },
+        {
+          "link": "https://www.cardmarket.com/en/YuGiOh",
+          "name": "Card Market",
+          "price": 7,
+          "id": 3,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
+}
+
+        

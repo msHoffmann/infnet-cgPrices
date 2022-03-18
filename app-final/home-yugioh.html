@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App</title>
+  <script src="https://kit.fontawesome.com/40bb26b95d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="home-yugioh.html" style="margin-right: auto;">
+        <img class="cgprices" src="assets/img/teste.png" alt="CG Prices" /></a>
+      <button class="voltar" onclick="history.go(-1);">
+        <i class="fa-solid fa-arrow-left-long"></i>
+      </button>
+
+      <button class="voltar" onclick="history.go(+1);" style="padding: 5px;">
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+      <nav>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <button class="favorites" id="btn-cart">
+        <i class="fa-solid fa-heart"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <div class="cards-alta">
+        <h1>Cards em Alta</h1>
+      </div>
+      <div class="products-grid" id="cards-high"></div>
+    </section>
+
+    <section>
+      <div class="cards-baixa">
+        <h1>Cards em Baixa</h1>
+      </div>
+      <div class="products-grid" id="cards-low"></div>
+    </section>
+
+    <footer class="footer">
+      <p class="p2">Project by msHoffmann</p>
+      <a href="https://api.whatsapp.com/send/?phone=553199999999&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
+        target="_blank">
+        <i class="fa-brands fa-whatsapp-square"></i>
+        (+351) 925027810
+      </a>
+    </footer>
+
+    <aside class="cart-sidebar">
+    <button id="btn-close-cart">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div id="empty-cart">
+      <!-- <i class="fa-solid fa-heart-crack"></i> -->
+      <img src="assets/img/sad.png" alt="sadYugi" class="teste"/>
+      <p class="h2">Favoritos sem Cartas</p>
+      <div id="cart-with-products">
+        <p class="h2">Favoritos</p>
+        <ul>
+        </ul>
+    </aside>
+    
+    <script src="assets/js/script.js"></script>
+    </script>
+</body>
+
+</html>
