@@ -40,32 +40,3 @@ const handleClickCard = (card) => {
 } 
 
 
-// FAVORITOS
-const cartSidebarEl = document.querySelector('.cart-sidebar')
-function openSidebar (event) {
-  event.stopPropagation()
-  cartSidebarEl.classList.add('cart-sidebar-open')
-}
-function closeSidebar () {
-  cartSidebarEl.classList.remove('cart-sidebar-open')
-}
-const btnCartEl = document.getElementById('btn-cart')
-btnCartEl.addEventListener('click', openSidebar)
-const btnCloseCartEl = document.querySelector('#btn-close-cart')
-btnCloseCartEl.addEventListener('click', closeSidebar)
-document.addEventListener('click', closeSidebar)
-cartSidebarEl.addEventListener('click', (event) => {
-  event.stopPropagation();
-})
-const btnAddMore = document.querySelector('#btn-add-more')
-btnAddMore?.addEventListener('click', closeSidebar)
-
-
-
-// AUMENTAR O TAMANHO DA IMAGE - nao esta funcionando :(
-
-$("#image").bind('mouseover',function(){
-    
-  $(this).animate({height:"200px",width:"200px"});
-
-});

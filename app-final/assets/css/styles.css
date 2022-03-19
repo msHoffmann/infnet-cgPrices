@@ -270,18 +270,9 @@ body {
   text-align: center;
   color: white;
   width: 100%;
-  position: fixed;
+  position: inherit;
 }
 
-
-.footer-cards {
-  background-color: rgb(251, 219, 60);
-  bottom: 0;
-  text-align: center;
-  color: white;
-  width: 100%;
-  position: fixed;
-}
 
 /* TITLES */
 
@@ -395,7 +386,8 @@ p {
   text-align: center;
   font-size: 15px;
   height: 25px;
-  width: 250px;
+  width: 200px;
+  margin-right: 5px;
 
 }
 
@@ -455,6 +447,12 @@ hr {
   display: block;
   height: auto;
   width: 150px;
+}
+
+@media (min-width: 810px) {
+  .fran {
+    width: 200px;
+  }
 }
 
 .p-contato {
@@ -556,7 +554,6 @@ hr {
   margin-left: 50px;
   margin-right: 50px;
 }
-
 
 #cart-with-products {
   overflow: auto;
