@@ -29,7 +29,7 @@ const getTemplateLink = (data) => {
         <div class="prices">
           <span>${data.currency} </span>${data.price}
         </div>
-        <button id ="add-favorites">Adicionar aos Favoritos</button>
+        <button id="add-favorites">Adicionar aos Favoritos</button>
         </div>`;
 
         const btnAddCartEl = sectionEl.querySelector('button')
@@ -57,13 +57,3 @@ const addToCart = newData => {
   }
   handleCartUpdate()
 }
-
-
-
-
-
-
-
-/* <img src="assets/img/sad.png" alt="sadYugi" class="teste"/>
-<p class="h2">Favoritos sem Cartas</p> */
-

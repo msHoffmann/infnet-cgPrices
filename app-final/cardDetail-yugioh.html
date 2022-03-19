@@ -1,82 +1,81 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CG Prices</title>
-    <script
-      src="https://kit.fontawesome.com/40bb26b95d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-      <header class="header">
-        <div class="container">
-          <a href="home-yugioh.html" style="margin-right: auto;">
-            <img class="cgprices"
-            src="assets/img/teste.png"
-            alt="CG Prices"
-          /></a>
-          <button class="voltar" onclick="history.go(-1);">
-            <i class="fa-solid fa-arrow-left-long"></i>
-          </button> 
-          <button class="voltar" onclick="history.go(+1);" style="padding: 5px;">
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </button>
-          <nav>
-            <a href="contato.html">Contato</a>
-          </nav>
-          <button class="favorites" id="btn-cart">
-            <i class="fa-solid fa-heart"></i>
-          </button>
-        </div>
-      </header>
-      <div>
-        <section class="busca-carta">
-          <div class="h4" id="title"></div>
-          <div class="h5" id="edition"></div>
-          <div class="item" id="image">
-      
-          </div>
-          <div class="description" id="description"></div>
-        </section>
-        </div> 
 
-          <div id="link">
-         
-          </div>
-          
-          <footer class="footer">
-            <p class="p2">Project by msHoffmann</p>
-            <a href="https://api.whatsapp.com/send?phone=55219999999999&text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20app%20CG%20PRICES." target="_blank">
-              <i class="fa-brands fa-whatsapp-square"></i>
-              (+351) 925027810
-            </a>
-    </footer>
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CG Prices</title>
+  <script src="https://kit.fontawesome.com/40bb26b95d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/contato.css" />
+  <link rel="stylesheet" href="assets/css/asideFavorites.css" />
+  <link rel="stylesheet" href="assets/css/media.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <main class="content">
+    <header class="header">
+      <div class="container">
+        <a href="home-yugioh.html" style="margin-right: auto;">
+          <img class="cgprices" src="assets/img/cgprices.png" alt="CG Prices" /></a>
+        <button class="voltar" onclick="history.go(-1);">
+          <i class="fa-solid fa-arrow-left-long"></i>
+        </button>
+        <button class="voltar" onclick="history.go(+1);" style="padding: 5px;">
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+        <nav>
+          <a href="contato.html">Contato</a>
+        </nav>
+        <button class="favorites" id="btn-cart">
+          <i class="fa-solid fa-heart"></i>
+        </button>
+      </div>
+    </header>
+    <div>
+      <section class="busca-carta">
+        <div class="h4" id="title"></div>
+        <div class="h5" id="edition"></div>
+        <div class="item" id="image"></div>
+        <div class="description" id="description"></div>
+      </section>
+    </div>
+
+    <div id="link"></div>
+
     <aside class="cart-sidebar">
       <button id="btn-close-cart">
         <i class="fa-solid fa-xmark"></i>
       </button>
-      <div id="empty-cart"><p class="h2">Favoritos sem Cartas</p>
+      <div id="empty-cart">
+        <img src="assets/img/sad.png" alt="sadYugi" class="favoritosSemCartas" />
+        <p class="h2">Favoritos sem Cartas</p>
       </div>
-        <div id="cart-with-products">
-          <p class="h2">Favoritos</p>
-          <ul>
-          </ul>
-        </div>
+      <div id="cart-with-products">
+        <p class="h2">Favoritos</p>
+        <ul>
+        </ul>
+      </div>
     </aside>
     <script src="assets/js/header.js"></script>
     <script src="assets/js/cardDetail.js"></script>
 
-  </body>
-</html>
+  </main>
 
+  <footer class="footer">
+    <p class="p2">Project by msHoffmann</p>
+    <a href="https://api.whatsapp.com/send?phone=55219999999999&text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20app%20CG%20PRICES."
+      target="_blank">
+      <i class="fa-brands fa-whatsapp-square"></i>
+      (+351) 925027810
+    </a>
+  </footer>
+
+</body>
+
+</html>

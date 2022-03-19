@@ -1,0 +1,70 @@
+/* CONTATO */
+
+.duvidas{
+    padding-top: 50px;
+  }
+  
+  .contato {
+    position: absolute;
+  }
+  
+  .fran {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    height: auto;
+    width: 150px;
+  }
+  
+  .p-contato {
+    font-size: 14px;
+  }
+  
+  .mshoffmann {
+    height: 150px;
+    width: 100%;
+  }
+
+  .socialMedia {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .socialMedia {
+    width: 35px;
+    margin-bottom: 20px;
+  }
+  
+  

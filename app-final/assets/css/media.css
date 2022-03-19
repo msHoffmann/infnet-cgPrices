@@ -1,0 +1,74 @@
+/* MEDIA */
+
+/* 428px */
+
+@media (min-width: 428px) {
+  .products-grid {
+    grid-template-columns: auto auto auto;
+  }
+  .mshoffmann {
+    width: 100%;
+  }
+  .socialMedia {
+    width: 50px;
+  }
+  .p {
+    font-size: 12px;
+  }
+}
+
+body {
+  height: 100vh;
+}
+
+
+/* 768 */
+
+@media (min-width: 768px) {
+    .cart-sidebar {
+      width: 428px;
+      box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.25);
+  }
+}
+
+
+/* 801px */
+
+@media (min-width: 810px) {
+    .fran {
+      width: 200px;
+    }
+    .mshoffmann {
+      width: 100%;
+      height: 250px;
+    }
+}
+
+
+/* 811px */
+
+@media (min-width: 811px) {
+    .socialMedia {
+      width: 70px;
+    }
+    .p-contato {
+      font-size: 16px;
+    }
+    .products-grid {
+      grid-template-columns: auto auto auto auto auto;
+      padding: 10px;
+    }
+    .menu-fotos {
+      display: flex;
+      padding-top: 20px;
+    }
+    .imagem-logo {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .socialMedia {
+      width: 60px;
+    }
+    .p {
+      font-size: 16px;
+    }
+  }

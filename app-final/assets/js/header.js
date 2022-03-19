@@ -49,12 +49,13 @@ const handleCartUpdate = (renderItens = true) => {
 
         const listItemEl = document.createElement('li')
         listItemEl.innerHTML = `
-          <img src="${product.image}" alt="${product.name}" width="100" height="100" />
+        <img src="${product.image}" alt="${product.name}" width="64" height="93" />
+        <span>${product.name}</span>
           <div>
-            <p class="price">
-              ${product.price.toLocaleString('pt-br', { minimumFractionDigits: 0 })}
-            </p>
-          </div>
+          <p class="price">
+            <span>${product.currency}</span> ${product.price.toLocaleString('pt-br', { minimumFractionDigits: 0 })}
+          </p>
+        </div>
           <button>
             <i class="fa-solid fa-trash-can"></i>
           </button>

@@ -1,0 +1,112 @@
+/* ASIDE FAVORITES */
+
+.cart-sidebar {
+    position: fixed;
+    background-color: #FFF;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+  }
+  .cart-sidebar-open {
+    display: flex;
+    padding: 15px;
+  }
+  
+  #btn-close-cart {
+    font-size: 30px;
+    color: rgb(238, 2, 2);
+    background: transparent;
+    align-self: flex-end;
+  }
+  #empty-cart {
+    flex-grow: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #empty-cart .fa-heart-crack {
+    color: black;
+    font-size: 154px;
+    opacity: 0.2;
+    margin-bottom: 5px;
+  }
+  
+  #empty-cart.empty-cart-show {
+    display: flex;
+  }
+  
+  #description {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+  }
+  
+  #cart-with-products {
+    overflow: auto;
+    display: none;
+    width: 100%;
+  }
+  
+  #cart-with-products ul{
+    width: 100%;
+  }
+  
+  #cart-with-products.cart-with-products-show {
+    display: block;
+  }
+  #cart-with-products ul {
+    list-style: none;
+  }
+  #cart-with-products li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 10px;
+  }
+  #cart-with-products li img {
+    object-fit: cover;
+  }
+  
+  #cart-with-products li button {
+    color: var(--main-color);
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    align-self: center;
+    cursor: pointer;
+  }
+  #cart-with-products li div {
+    flex-grow: 1;
+  }
+  
+  #cart-with-products .btn-outline {
+    margin-bottom: 12px;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+  }
+  .cart-total p:last-child {
+    font-size: 18px;
+  }
+  .cart-total .h2 {
+    margin: 0;
+  }
+  
+  .h-favorites {
+    padding-top: 60px;
+  }
+
+  .favoritosSemCartas {
+    width: 250px;
+  
+}
+  

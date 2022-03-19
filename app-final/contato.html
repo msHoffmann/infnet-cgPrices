@@ -8,19 +8,21 @@
   <title>CG Prices</title>
   <script src="https://kit.fontawesome.com/40bb26b95d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/contato.css" />
+  <link rel="stylesheet" href="assets/css/asideFavorites.css" />
+  <link rel="stylesheet" href="assets/css/media.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+
   <header class="header">
     <div class="container">
 
       <a href="home-yugioh.html" style="margin-right: auto;">
-        <img class="cgprices" src="assets/img/teste.png" alt="CG Prices" /></a>
-
-
+        <img class="cgprices" src="assets/img/cgprices.png" alt="CG Prices" /></a>
 
       <button class="voltar" onclick="history.go(-1);">
         <i class="fa-solid fa-arrow-left-long"></i>
@@ -33,30 +35,43 @@
     </div>
   </header>
 
+  <main class="content">
+    <img class="mshoffmann" src="assets/img/frania2.jpg" alt="msHoffmann" /></a>
 
-  <img class="mshoffmann" src="assets/img/frania2.jpg" alt="msHoffmann" /></a>
+    <img class="fran" src="assets/img/frania.svg" alt="frania" /></a>
 
-  <img class="fran" src="assets/img/frania.svg" alt="frania" /></a>
+    <p class="p-contato">
+    Olá! Meu nome é <strong>Frania Hoffmann</strong>.<br><br>
+    Bem-vindo ao meu primeiro projeto do Curso de Pós Graduação Full Stack da INFNET.<br><br>
+    O <strong>App</strong> e <strong>Site CG Prices (Card Game Prices)</strong> foi criado com o objetivo de suprir a necessidade dos players de Card Games que precisam de uma plataforma de comparação de preços de lojas do Brasil e Exterior para troca e venda de cartas. <br>
+    <br>Tem alguma dúvida?<br>Fale comigo: <a href="mailto:franiahoffmann@gmail.com">enviar e-mail.</a>
+    </p>
 
-  <pre class="p-contato">
-    Olá! Meu nome é Frania!
-    Bem-vindo ao meu primeiro projeto do INFNET.
-    O App e Site CG Prices foi criado com o objetivo de suprir a necessidade dos players de Card Games que precisam um comparativo de preços de diversos países para troca e venda de cartas. 
-    Tem alguma dúvida? Pode falar comigo: <a href="mailto:franiahoffmann@gmail.com">enviar e-mail.</a>
-  </pre>
+    <div>
+      <a href="https://www.facebook.com/frania.hoffmann" target="_blank"><img class="socialMedia"
+          src="assets/img/facebook.png" alt="Facebook" /></a>
 
-  <div>
-    <a href="https://www.facebook.com/frania.hoffmann" target="_blank"><img class="contatos"
-        src="assets/img/facebook.png" alt="Facebook" /></a>
+      <a href="https://www.instagram.com/franiahoffmann/" target="_blank"><img class="socialMedia"
+          src="assets/img/instagram.png" alt="Facebook" /></a>
 
-    <a href="https://www.instagram.com/franiahoffmann/" target="_blank"><img class="contatos"
-        src="assets/img/instagram.png" alt="Facebook" /></a>
+      <a href="https://github.com/msHoffmann?tab=repositories" target="_blank"><img class="socialMedia"
+          src="assets/img/git-hub.png" alt="Facebook" /></a>
 
-    <a href="https://github.com/msHoffmann?tab=repositories" target="_blank"><img class="contatos"
-        src="assets/img/git-hub.png" alt="Facebook" /></a>
+    </div>
 
-  </div>
-  <footer class="footer-cards">
+    <aside class="cart-sidebar">
+      <button id="btn-close-cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="empty-cart">
+        <!-- <i class="fa-solid fa-heart-crack"></i> -->
+        <img src="assets/img/sad.png" alt="sadYugi" class="favoritosSemCartas" />
+        <p class="h2">Favoritos sem Cartas</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
     <p class="p2">Project by msHoffmann</p>
     <a href="https://api.whatsapp.com/send?phone=55219999999999&text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20app%20CG%20PRICES."
       target="_blank">
@@ -64,17 +79,6 @@
       (+351) 925027810
     </a>
   </footer>
-
-  <aside class="cart-sidebar">
-    <button id="btn-close-cart">
-      <i class="fa-solid fa-xmark"></i>
-    </button>
-    <div id="empty-cart">
-      <!-- <i class="fa-solid fa-heart-crack"></i> -->
-      <img src="assets/img/sad.png" alt="sadYugi" class="teste" />
-      <p class="h2">Favoritos sem Cartas</p>
-    </div>
-  </aside>
 
 </body>
 
