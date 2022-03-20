@@ -27,16 +27,14 @@ const getSectionEl = (card) => {
       <p>${card.edition}</p>
     </div>
   </div>`;
-  const divCard = articleEl.querySelector("img")
-  divCard.addEventListener('click', () => {
-  handleClickCard(card)
-  })
+  const divCard = articleEl.querySelector("img");
+  divCard.addEventListener("click", () => {
+    handleClickCard(card);
+  });
   return articleEl;
 };
 
 const handleClickCard = (card) => {
-  localStorage.setItem("cardSelected", JSON.stringify(card))
-  window.location.href = "cardDetail-yugioh.html"
-} 
-
-
+  localStorage.setItem("cardSelected", JSON.stringify(card));
+  window.location.href = "cardDetail-yugioh.html";
+};

@@ -19,6 +19,9 @@
     color: rgb(238, 2, 2);
     background: transparent;
     align-self: flex-end;
+    top: 66px;
+    right:31px;
+    position: absolute;
   }
   #empty-cart {
     flex-grow: 1;
@@ -42,12 +45,15 @@
     margin-left: 50px;
     margin-right: 50px;
     font-size: 13px;
+    width: 90%;
+    
   }
   
   #cart-with-products {
     overflow: auto;
     display: none;
     width: 100%;
+    padding-top: 70px;
   }
   
   #cart-with-products ul{

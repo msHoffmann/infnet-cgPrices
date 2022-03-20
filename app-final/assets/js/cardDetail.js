@@ -13,14 +13,13 @@ const getCardLocalStorage = () => {
   editionEl.innerHTML = card.edition;
   descriptionEl.innerHTML = card.description;
   card.sites.forEach((data) => {
-    const sectionEl = getTemplateLink({...data, image:card.image});
+    const sectionEl = getTemplateLink({ ...data, image: card.image });
     linkEl.appendChild(sectionEl);
   });
 };
 
 const getTemplateLink = (data) => {
   const sectionEl = document.createElement("section");
-  // sectionEl.classList.add("sites");
   sectionEl.innerHTML = `
         <div class="sites">
         <div class="stores">              
@@ -32,28 +31,26 @@ const getTemplateLink = (data) => {
         <button id="add-favorites">Adicionar aos Favoritos</button>
         </div>`;
 
-        const btnAddCartEl = sectionEl.querySelector('button')
-        btnAddCartEl.addEventListener('click', () => {
-          addToCart(data)
-        })
+  const btnAddCartEl = sectionEl.querySelector("button");
+  btnAddCartEl.addEventListener("click", () => {
+    addToCart(data);
+  });
 
   return sectionEl;
 };
 
 getCardLocalStorage();
 
-const addToCart = newData => {
-  console.log(productsCart)
-  const productIndex = productsCart.findIndex(
-    item => item.id === newData.id
-  )
+const addToCart = (newData) => {
+  console.log(productsCart);
+  const productIndex = productsCart.findIndex((item) => item.id === newData.id);
   if (productIndex === -1) {
     productsCart.push({
       ...newData,
-      qty: 1
-    })
+      qty: 1,
+    });
   } else {
-    productsCart[productIndex].qty++
+    productsCart[productIndex].qty++;
   }
-  handleCartUpdate()
-}
+  handleCartUpdate();
+};

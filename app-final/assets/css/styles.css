@@ -1,7 +1,7 @@
 /* INDEX */
 
 .imagem-logo {
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 
@@ -56,6 +56,7 @@ body {
   align-items: center;
 }
 
+
 .header nav a {
   padding: 12px;
   color: inherit;
@@ -64,11 +65,10 @@ body {
 
 .edicao {
   padding-top: 24px;
-  /* display: flex; */
-}
-
-.menu {
-  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .cgprices {
@@ -151,7 +151,7 @@ ul {
   grid-template-columns: auto auto;
   gap: 10px;
   margin-bottom: 20px;
-  padding: 8px;
+  padding: 15px;
 }
 
 
@@ -235,7 +235,6 @@ p {
 .cards-baixa {
   background-color: rgb(243, 11, 11);
   opacity: 0.7;
-  margin-top: -14px;
 }
 
 .cards-alta {
@@ -257,12 +256,14 @@ p {
   width: 122px;
   height: auto;
 }
+
 .card-content {
-  padding: 10px;
+  /* padding: 10px; */
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  padding-top: 0px;
+  /* padding-top: 0px; */
+  padding-bottom: 10px;
 }
 
 .card-name {
@@ -285,13 +286,14 @@ section{
 }
 
 .stores {
-  margin: 5px;
+  margin-top: 5px;
   text-align: center;
   font-size: 11px;
 }
 
 .prices {
-  margin: 5px;
+  margin-top: 5px;
+  margin-right: 50px;
   text-align: center;
   font-size: 12px;
 }
@@ -313,11 +315,6 @@ section{
   font-size: 14px;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.botao-add-fav:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .c {
