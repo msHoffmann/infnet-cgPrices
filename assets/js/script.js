@@ -20,7 +20,7 @@ const getSectionEl = (card) => {
   const articleEl = document.createElement("article");
   articleEl.classList.add("card");
   articleEl.innerHTML = `<div>
-      <img src="${card.image}" alt="${card.name}" width="122" height="176" />   
+      <img class="cardImage" src="${card.image}" alt="${card.name}" width="122" height="176"/>   
     <div class="card-content">
       <h3>Yu-gi-oh!</h3>
       <p class="card-name">${card.name}</p>

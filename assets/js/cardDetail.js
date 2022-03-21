@@ -13,7 +13,8 @@ const getCardLocalStorage = () => {
   editionEl.innerHTML = card.edition;
   descriptionEl.innerHTML = card.description;
   card.sites.forEach((data) => {
-    const sectionEl = getTemplateLink({ ...data, image: card.image });
+    const sectionEl = getTemplateLink({ 
+      ...data, image: card.image, edition: card.edition });
     linkEl.appendChild(sectionEl);
   });
 };
