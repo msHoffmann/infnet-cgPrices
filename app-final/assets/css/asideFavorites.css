@@ -40,15 +40,12 @@
   #empty-cart.empty-cart-show {
     display: flex;
   }
-  
+
   #description {
-    margin-left: 50px;
-    margin-right: 50px;
     font-size: 13px;
-    width: 90%;
-    
+    width: 100%;    
   }
-  
+
   #cart-with-products {
     overflow: auto;
     display: none;

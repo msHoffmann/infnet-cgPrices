@@ -25,7 +25,6 @@ const btnAddMore = document.querySelector("#btn-add-more");
 btnAddMore?.addEventListener("click", closeSidebar);
 
 const handleCartUpdate = (renderItens = true) => {
-  // Salva carrinho no localstorage
   const productsCartString = JSON.stringify(productsCart);
   localStorage.setItem("productsCart", productsCartString);
   const emptyCartEl = document.querySelector("#empty-cart");
@@ -43,7 +42,7 @@ const handleCartUpdate = (renderItens = true) => {
           product.name
         }" width="64" height="93" />
         <span>${product.name}</span>
-        <span>${product.edition}</span>
+        <span class="edition">${product.edition}</span>
         <div>
           <p class="price">
             <span>${product.currency}</span> ${product.price.toLocaleString(

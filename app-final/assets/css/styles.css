@@ -7,6 +7,10 @@
 
 /* RESET */
 
+.cardImage{
+  cursor: pointer;
+}
+
 * {
   border: none;
   margin: 0;
@@ -230,6 +234,9 @@ p {
   color: rgb(239, 26, 26);
 }
 
+.edition{
+  font-size: 12px;
+}
 /* CARD */
 
 .cards-baixa {
@@ -302,13 +309,21 @@ section{
   text-align: center;
   font-size: 12px;
   height: 25px;
-  width: 200px;
+  width: 197px;
   margin-right: 5px;
 
 }
 
+#add-favorites:hover {
+  background-color: rgb(209, 209, 209);
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
 .busca-carta {
   padding-bottom: 14px;
+  display: flex;
+  flex-direction: column;
 }
 
 .item {
