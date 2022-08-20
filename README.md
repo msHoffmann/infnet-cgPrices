@@ -7,11 +7,11 @@
     <img src="github/header-readme.png" alt="Logo Tubarões" />
 
 <div align="center">
-  <h3 align="center">CG Prices</h3>
-  <h3 align="center">Check. Buy. Play.</h3>
+  <h3 align="center">CG Prices. Check. Buy. Play.</h3>
   <p align="center">
     É hora do duelo! Acesse o site e veja os preços das cartas em real, dólar e euro.
-    <br />
+      <p align="center">
+    Acesse o site e veja os preços das cartas em real, dólar e euro.
     <a href="https://nervous-yonath-5f59bd.netlify.app/"><strong>Acessar Demonstração »</strong></a>
   </p>
 </div>
@@ -42,8 +42,8 @@ A maior necessidade de um jogador de Cardgame é saber avaliar o valor da sua ca
 
 Os recursos implementados foram:
 
-    Layout responsivo - se adequa em diferentes tamanhos de tela;
-    Listagem dinâmica - cartas agrupadas por grupos;
+    Layout Responsivo - se adequa em diferentes tamanhos de tela;
+    Listagem Dinâmica - cartas agrupadas por grupos;
     Favoritos - adição e remoção das cartas escolhidas;
     Contato - tela para conhecer a programadora;
 
@@ -86,4 +86,3 @@ Agradeço ao [Infnet](https://www.infnet.edu.br/) e Professor Victor de Assis Ca
 # Licença
 
 Este projeto esta sobe a licença MIT. Veja [LICENSE](https://github.com/msHoffmann/infnet-cgPrices/blob/main/LICENSE) para mais informações.
-=======
