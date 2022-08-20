@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://github.com/msHoffmann/)
 
 <br />
-    <img src="github/header-readme.png" alt="Logo Tubarões" />
+    <img src="github/header-readme.png" alt="CG Prices" />
 
 <div align="center">
   <h3 align="center">CG Prices. Check. Buy. Play.</h3>
