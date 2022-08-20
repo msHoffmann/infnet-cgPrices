@@ -86,3 +86,4 @@ Agradeço ao [Infnet](https://www.infnet.edu.br/) e Professor Victor de Assis Ca
 # Licença
 
 Este projeto esta sobe a licença MIT. Veja [LICENSE](https://github.com/msHoffmann/infnet-cgPrices/blob/main/LICENSE) para mais informações.
+=======
