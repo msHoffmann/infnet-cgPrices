@@ -9,7 +9,8 @@
 <div align="center">
   <h3 align="center">CG Prices. Check. Buy. Play.</h3>
   <p align="center">
-    É hora do duelo! Acesse o site e veja os preços das cartas em real, dólar e euro.
+    É hora do duelo!
+<br />
       <p align="center">
     Acesse o site e veja os preços das cartas em real, dólar e euro.
     <a href="https://nervous-yonath-5f59bd.netlify.app/"><strong>Acessar Demonstração »</strong></a>
