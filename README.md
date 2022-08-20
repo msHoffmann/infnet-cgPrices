@@ -13,6 +13,7 @@
 <br />
       <p align="center">
     Acesse o site e veja os preços das cartas em real, dólar e euro.
+<br /> 
     <a href="https://nervous-yonath-5f59bd.netlify.app/"><strong>Acessar Demonstração »</strong></a>
   </p>
 </div>
@@ -49,7 +50,7 @@ Os recursos implementados foram:
     Contato - tela para conhecer a programadora;
 
 
-A demonstração do site funcionando está disponível no link: https://modest-swartz-d89857.netlify.app/
+A demonstração do site funcionando está disponível no link: https://nervous-yonath-5f59bd.netlify.app/
 
 
 ## Pré-requisitos
